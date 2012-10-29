@@ -18,8 +18,10 @@ Basic "How it works"
 1. First image from webcam is used as a sample
 2. Infinite Loop (30+ frames per second)
 3. Is there a major difference between this image and the last image?
+
   Yes:
     There was a bubble, record it into the database and wait a few seconds before comparing more images. 
+
   No:
     Return to beginning of loop
 
